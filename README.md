@@ -4,16 +4,51 @@ This is a documentation to help you to setup UI test environment with Fusionex T
 ## Prerequisites
 * Install [Anaconda](https://docs.anaconda.com/anaconda/install/windows/)
 * After installation of Anaconda in previous step, launch `Anaconda Navigator` from Windows menu
-* Create virual environment (with Python 3.6)
-    * TODO: 
+* Create virual environment `python_36` (with Python 3.6)
+    * TODO:
+
+    * More information:  [documentation](https://docs.anaconda.com/anaconda/navigator/tutorials/use-multiple-python-versions/#:~:text=In%20Navigator%2C%20click%20the%20Environments,version%20you%20want%20to%20use)
 * Install JupyterLab
-    * Click side menu `Home`
+    * In Navigator, click side menu `Home`
     * Select the new environment from previous step `python_36` from dropdown `Applications on`
-
-
-    
-    ![jupyterlab.PNG](./images/jupyterlab.PNG)
     * Click `Install` from `JupyterLab`
+
+* Install python libraries  
+    * In Navigator, click side menu `Environments`
+    * Select environment `python_36`
+    * Click the arrow button, select ``
+
+
+* Install chrome driver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
