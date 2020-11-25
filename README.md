@@ -40,6 +40,8 @@ This is a documentation to help you to setup UI test environment with Fusionex T
     * Run the following commands to install the libraries.
       ```shell
       pip install selenium beautifulsoup4
+      curl https://github.com/fx-de/public-python-lib/raw/master/fx_test-1.0-py3-none-any.whl -L -o fx_test-1.0-py3-none-any.whl
+      pip install --user --upgrade --force-reinstall fx_test-1.0-py3-none-any.whl
       ```
 
 * Download Google Chrome driver
@@ -50,41 +52,21 @@ This is a documentation to help you to setup UI test environment with Fusionex T
   * Download the driver based on your chrome version using this [link](https://chromedriver.chromium.org/downloads)
   * Unzip the driver zip file and save to your local machine.
 
-
+* Testing with Jupyter Notebook
+  * Launch **JupyterLab** from **Navigator**.
+  * Create new notebook with the code as shown below.
+  * Replace the driver_path to point to the driver file that you downloaded from previous step.
   
+  ```python
+  import fx_test
+  from fx_test import TestEngine
 
-  
+  instance = TestEngine(mode="windows", driver_path="./library/drivers/chrome/win/chromedriver.exe", timeout=30)
+  ```
 
+  * The chrome browser window will be launched.
+  * Run the following code to close the browser window.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  ```python
+  instance.close()
+  ```
