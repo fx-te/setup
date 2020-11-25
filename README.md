@@ -6,8 +6,12 @@ This is a documentation to help you to setup UI test environment with Fusionex T
 * After installation of Anaconda in previous step, launch `Anaconda Navigator` from Windows menu
 * Create virual environment `python_36` (with Python 3.6)
     * TODO:
-
-    * More information:  [documentation](https://docs.anaconda.com/anaconda/navigator/tutorials/use-multiple-python-versions/#:~:text=In%20Navigator%2C%20click%20the%20Environments,version%20you%20want%20to%20use)
+    * In Navigator, click the Environments tab, then click the Create button. The Create new environment dialog box appears.
+    * In the Environment name field, type a `python_36` for your environment.
+    * In the Packages list select `Python` and in the Python version list select the version `python_36`.
+    * Click the `Create button`.
+    
+    * For more information, refer to:  [documentation](https://docs.anaconda.com/anaconda/navigator/tutorials/use-multiple-python-versions/#:~:text=In%20Navigator%2C%20click%20the%20Environments,version%20you%20want%20to%20use)
 * Install JupyterLab
     * In Navigator, click side menu `Home`
     * Select the new environment from previous step `python_36` from dropdown `Applications on`
